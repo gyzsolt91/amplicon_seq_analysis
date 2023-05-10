@@ -4,10 +4,10 @@ from typing import List, Dict
 
 
 class BarcodesConfig(BaseModel):
-    TGACCA: str
-    TTAGGC: str
     ATCACG: str
     ACGGTT: str
+    CGATGT: str
+    CAGTAC: str
 
 
 class PrimersConfig(BaseModel):

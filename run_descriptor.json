@@ -5,16 +5,16 @@
     "run_indel_analysis": "False"
   },
   "barcodes": {
-    "TGACCA": "WT_ab",
-    "TTAGGC": "WT_c",
-    "ATCACG": "PCNA_ab",
-    "ACGGTT": "PCNA_c"
+    "ATCACG": "RAD17_ab",
+    "ACGGTT": "RAD17_c",
+    "CGATGT": "BRCA1_ab",
+    "CAGTAC": "BRCA1_c"
   },
   "primers":{
     "forward": "ACAGCTTGGA",
     "reverse": "TCTGCCCACTGACGGGC"
   },
-  "samples": ["WT_ab", "WT_c", "PCNA_ab", "PCNA_c"],
+  "samples": ["WT_ab", "WT_c", "PCNA_ab", "PCNA_c", "REV1_ab", "REV1_c", "MSH2_ab", "MSH2_c", "RAD17_c", "RAD17_ab", "BRCA1_c", "BRCA1_ab"],
   "ref_seq": "ATGTCATGGCTTTAGAAGCTTCACCCACCANAGCCTTGTCTYGCCAGAATGCNGGTCAGTTTGAATTCGATTAGGCTCCGAT",
   "original_seq": "GGGTCTTCGAGAAGACCT",
   "possible_bases":"ACGTRYSWKMBN"
